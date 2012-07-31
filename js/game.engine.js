@@ -1012,7 +1012,7 @@ game.init = function(p1,p2) {
 			$('#game_field').click(function(){
 				p = p==1?0:1;
 				$(this).unbind('click');
-				if (confirm('Еще?')) {
+				if (confirm('One more?')) {
 					game.reset();
 					game.newgame(p,f);
 				}
