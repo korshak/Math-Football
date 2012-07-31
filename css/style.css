@@ -1,0 +1,53 @@
+body
+{
+	font-family:simple !important;
+	font-weight: bold;
+}
+#game_field {
+	border: solid 2px grey;
+	border-radius:6px;
+}
+#diff0,#diff0 .ui-slider-handle {
+border-color:#f11 !important;
+border-width:2px !important;
+}
+
+.ui-slider-handle {
+	opacity:0;
+	z-index:2;
+}
+.ui-slider:hover .ui-slider-handle{
+	opacity:1;
+	z-index:2;
+}
+#diff1,#diff1 .ui-slider-handle {
+border-color:#11f !important;
+border-width:2px !important;
+}
+#score{
+border:2px solid pink;
+	border-radius:6px;
+width:50px;
+margin-bottom:4px;
+}
+canvas {
+background-color:#fff;
+}
+#name0{
+	border: solid 2px red;
+	border-radius:6px;
+}
+#name1{
+	border: solid 2px blue;
+	border-radius:6px;
+}
+#name0,#name1{
+	margin-top:4px;
+	margin-bottom:4px;
+}
+#score,#diff0,#diff1,#name0,#name1 {
+	background-color:#fff;
+}
+#canvas {
+border-radius:3px;
+}
